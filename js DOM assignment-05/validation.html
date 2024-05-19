@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phone Survey Form</title>
+</head>
+<body>
+  <h1>Phone Survey</h1>
+  <form id="survey-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+    <span id="phone-error"></span>
+    <br>
+    <label for="feedback">Feedback:</label>
+    <textarea id="feedback" name="feedback" rows="5"></textarea>
+    <br>
+    <button type="submit">Submit Survey</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
