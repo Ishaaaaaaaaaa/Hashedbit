@@ -1,0 +1,8 @@
+p {
+    display: block; /* Default display for paragraphs */
+  }
+  
+  #paragraph2 {
+    display: none; /* Initially hide the second paragraph */
+  }
+  
