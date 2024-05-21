@@ -1,0 +1,27 @@
+{
+    "questions": [
+      {
+        "type": "text",
+        "name": "name",
+        "title": "What is your name?"
+      },
+      {
+        "type": "radiogroup",
+        "name": "satisfaction",
+        "title": "How satisfied are you with our product?",
+        "choices": [
+          "Very satisfied",
+          "Satisfied",
+          "Neutral",
+          "Dissatisfied",
+          "Very dissatisfied"
+        ]
+      },
+      {
+        "type": "comment",
+        "name": "feedback",
+        "title": "Please provide any additional feedback you may have."
+      }
+    ]
+  }
+  
